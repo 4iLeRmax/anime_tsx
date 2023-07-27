@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.anime__cards {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  list-style: none;
+  gap: 20px;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
