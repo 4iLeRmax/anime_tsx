@@ -5,7 +5,15 @@ import { useAppSelector } from '../../hooks/hooks';
 import css from './Header.module.css';
 
 const Header = () => {
-  const FavouritesList = useAppSelector(state=> state.toolkit.favouriteAnimeList);
+  const FavouritesList = useAppSelector((state) => state.toolkit.favouriteAnimeList);
+
+
+
+
+
+//sfsdfsdfsdvfuvbdufvdfv
+
+
 
   return (
     <div className={css.container}>
